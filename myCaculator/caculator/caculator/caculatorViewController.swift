@@ -111,10 +111,10 @@ class caculatorViewController: UIViewController {
                 displayValue = sqrt(displayValue)
                 userIsInTyping = false
                 valueHasTyping = true
-                //operating.resetBind()
+            //operating.resetBind()
             case "±":
                 displayValue = -displayValue
-                //operating.resetBind()
+            //operating.resetBind()
             case "+","-","×","÷","=":
                 if(valueHasTyping){
                     displayValue = operating.resulet(operate, value: displayValue)
